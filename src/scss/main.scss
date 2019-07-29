@@ -9,8 +9,119 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-body {
-  color: $yellow;
-  background: $violet;
+body {background-color: greenyellow;
+  font-size: 23px;
+  
 }
+
+main {width: 100%;
+  max-width:960px;
+  margin: 32px auto;
+  background-color: #f7c977;
+  padding-left: 15px;
+  padding-right: 15px;}
+
+
+
+.pon {background-color: pink; font-size: 29px;}
+
+.wto {background-color: yellowgreen; font-size: 29px;}
+
+.sro {background-color: aquamarine; font-size: 29px;}
+
+.headerClass__one {font-size: 49px;
+               
+          background-color:#91c8bf;
+          text-decoration: none;
+          height: 9vh;
+          padding-top: 14px;
+          text-transform: uppercase;                      
+          min-height: 10vh;
+          width: 100vw;
+          
+          
+          
+background: rgba(122,42,207,1);
+background: -moz-linear-gradient(left, rgba(122,42,207,1) 0%, rgba(84,248,130,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(122,42,207,1)), color-stop(100%, rgba(84,248,130,1)));
+background: -webkit-linear-gradient(left, rgba(122,42,207,1) 0%, rgba(84,248,130,1) 100%);
+background: -o-linear-gradient(left, rgba(122,42,207,1) 0%, rgba(84,248,130,1) 100%);
+background: -ms-linear-gradient(left, rgba(122,42,207,1) 0%, rgba(84,248,130,1) 100%);
+background: linear-gradient(to right, rgba(122,42,207,1) 0%, rgba(84,248,130,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a2acf', endColorstr='#54f882', GradientType=1 );
+   
+}
+                                  
+
+h1 {font-size: 55px;
+color: salmon;
+letter-spacing:24px;
+text-align: center;}
+
+.img_zero {width:40%;
+       height: 49;
+       float: right;
+       padding-left: 14px;}
+
+.img_one {width: 42%;
+      height:500px;
+      display: block;
+      float:left;
+      padding-right: 14px;}
+
+.img_two {width:40%;
+      height: 49;
+      float: right;
+      padding-left: 14px;}
+
+.img__three {width: 48%;
+        height: 37%;
+        float: left;
+        padding-rights: 14px;}
+
+footer {font-size: 49px; 
+    background-color:#91c8bf;
+    text-decoration: none;
+    width: 100vw;
+    display: block;
+    clear: both;
+    padding-left: 400px;}
+
+a { 
+
+text-decoration: none;
+text-align: right;
+padding-left: 8px;
+display: block;
+color: black;
+}
+.headerClass__last{
+ 
+ padding-right: 8px; 
+}
+.hclass {
+  letter-spacing: 11px;
+  text-align: center;
+}
+.ulList{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+
+
+  @media (max-width: 990px) {
+       
+        .ulList {display: flex;
+              flex-direction: column;
+              display: none;}}
+
+        
+  @media (min-width: 990px)      {      
+  .button__hamburger {display: none;}}
+
+  .visible {
+       display:flex;
+        flex-direction: column;}
